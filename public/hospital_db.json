@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "GCG_DB",
+    "numericId": 1,
+    "name": "Gov. C. Gallares Memorial Medical Center",
+    "address": "3",
+    "latitude": 9.72293494451501,
+    "longitude": 123.888441641311,
+    "services": [
+      "Medical Administration"
+    ],
+    "referenceKey": "GCG_DB",
+    "level": "3",
+    "doctors": [
+      {
+        "name": "Miguelito S. Jayoma, MD",
+        "type": "Surgery",
+        "department": "",
+        "schedule": "",
+        "priceRange": "",
+        "contact": "",
+        "hmos": []
+      },
+      {
+        "name": "Grace T. Quipit, MD",
+        "type": "Internal Medicine",
+        "department": "",
+        "schedule": "",
+        "priceRange": "",
+        "contact": "",
+        "hmos": []
+      },
+      {
+        "name": "Hannah Ethreia Z. Maulawin, MD",
+        "type": "General Practitioner",
+        "department": "Medical Administration",
+        "schedule": "",
+        "priceRange": "",
+        "contact": "",
+        "hmos": []
+      }
+    ]
+  },
+  {
+    "id": "Hopi1_DB",
+    "numericId": 2,
+    "name": "Ramiro Community Hospital",
+    "address": "2",
+    "latitude": 9.6447829570429,
+    "longitude": 123.85324918206,
+    "services": [
+      "Internal Medicine",
+      "OB-GYN",
+      "Pediatrics",
+      "Surgery",
+      "Orthopedics",
+      "Ophthalmology",
+      "Emergency Med",
+      "Rehab Medicine"
+    ],
+    "referenceKey": "Hopi1_DB",
+    "level": "2",
+    "doctors": [
+      {
+        "name": "Dr. Roberto M. Sotto",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 123 4567",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Maria Elena P. Garcia",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "T-Th-S 9AM-12PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 918 234 5678",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Juan Paolo L. Ramos",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 920 345 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Ferdinand T. Lim",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 915 456 7890",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Angela V. Sy",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Wed/Sat 1PM-5PM",
+        "priceRange": "₱800 - ₱1,200",
+        "contact": "+63 927 567 8901",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Ricardo G. Torres",
+        "type": "Orthopedic Surgeon",
+        "department": "Orthopedics",
+        "schedule": "Tue-Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 678 9012",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Sofia C. Mendoza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 908 789 0123",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Gabriel E. Cruz",
+        "type": "Ophthalmologist",
+        "department": "Ophthalmology",
+        "schedule": "Mon-Fri 9AM-3PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 916 890 1234",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Teresa B. Aquino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-1PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 922 901 2345",
+        "hmos": [
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Manuel J. Hernandez",
+        "type": "Urologist",
+        "department": "Surgery",
+        "schedule": "Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 012 3456",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Cristina L. Villa",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 2PM-5PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 918 123 9876",
+        "hmos": [
+          "PhilCare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Paolo R. Santiago",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 10AM-2PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 905 234 8765",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Beatrice M. Gomez",
+        "type": "Psychiatrist",
+        "department": "Emergency Med",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱2,000 - ₱3,500",
+        "contact": "+63 921 345 7654",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Luisito K. Puno",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 928 456 6543",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Victoria S. Dimaguila",
+        "type": "Physiatrist",
+        "department": "Rehab Medicine",
+        "schedule": "Mon-Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 915 567 5432",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi2_DB",
+    "numericId": 3,
+    "name": "ACE Medical Center - Bohol",
+    "address": "2",
+    "latitude": 9.63471211807298,
+    "longitude": 123.86928628206,
+    "services": [
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "OB-GYN"
+    ],
+    "referenceKey": "Hopi2_DB",
+    "level": "2",
+    "doctors": [
+      {
+        "name": "Dr. Victorio A. Dela Cruz",
+        "type": "Infectious Disease",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-3PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 111 2222",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Ma. Theresa J. Santos",
+        "type": "Hematologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 918 222 3333",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Rodolfo P. Quizon",
+        "type": "Thoracic Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,500",
+        "contact": "+63 919 333 4444",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Bianca Felice M. Yulo",
+        "type": "Plastic Surgeon",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 2PM-5PM",
+        "priceRange": "₱2,000 - ₱4,000",
+        "contact": "+63 920 444 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Enrico L. Tanchanco",
+        "type": "Allergologist",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 921 555 6666",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Patricia Anne S. Dy",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 922 666 7777",
+        "hmos": [
+          "ValuCare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Jose Mari R. Tan",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon/Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 923 777 8888",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Sofia Isabelle V. Gomez",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 8AM-11AM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 924 888 9999",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Leandro D. Villafuerte",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "M-W-F 9AM-12PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 925 999 0000",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Carmela T. Roxas",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-3PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 926 000 1111",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Rafael S. Mercado",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,800",
+        "contact": "+63 927 111 3333",
+        "hmos": [
+          "PhilCare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Katrina Bianca O. Lim",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 928 222 4444",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Mark Anthony V. Reyes",
+        "type": "Psychiatrist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 1PM-5PM",
+        "priceRange": "₱1,800 - ₱3,000",
+        "contact": "+63 929 333 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Sheila Marie P. Lopez",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 10AM-2PM",
+        "priceRange": "₱0 - ₱1,600",
+        "contact": "+63 930 444 6666",
+        "hmos": [
+          "Intellicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Benjamin F. Agbayani",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 8AM-12PM",
+        "priceRange": "₱0 - ₱1,250",
+        "contact": "+63 931 555 7777",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi3_DB",
+    "numericId": 4,
+    "name": "Holy Name University Medical Center",
+    "address": "2",
+    "latitude": 9.65125055318026,
+    "longitude": 123.86781538206,
+    "services": [
+      "Internal Medicine",
+      "Pediatrics",
+      "Surgery",
+      "OB-GYN",
+      "Radiology",
+      "Emergency Med"
+    ],
+    "referenceKey": "Hopi3_DB",
+    "level": "2",
+    "doctors": [
+      {
+        "name": "Dr. Ma. Kristina G. Abella",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 9AM-1PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 445 1234",
+        "hmos": [
+          "Maxicare",
+          "Medicard",
+          "HPPI"
+        ]
+      },
+      {
+        "name": "Dr. Christian Keane Aguilar",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 10AM-3PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 918 556 2345",
+        "hmos": [
+          "Intellicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Lizlin Noemi Bajada",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 920 667 3456",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Lordfrey Dickson Atay",
+        "type": "Oncologist",
+        "department": "Surgery",
+        "schedule": "Wed 1PM-5PM",
+        "priceRange": "₱1,500 - ₱2,500",
+        "contact": "+63 915 778 4567",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Julia Berba-Maape",
+        "type": "Pediatric Cardiologist",
+        "department": "Pediatrics",
+        "schedule": "Tue/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 927 889 5678",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Backy Bacareza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 990 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Maria Corazon Lim",
+        "type": "Rheumatologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 908 112 7890",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Isagani De Los Santos",
+        "type": "Neurosurgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,000",
+        "contact": "+63 916 223 8901",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Imelda Goco-Jumangit",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 922 334 9012",
+        "hmos": [
+          "Medicard",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Marbert John Cardino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 917 556 0123",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Cecilia Angela Lopez",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 918 667 1234",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Herlando Bertulfo Jr.",
+        "type": "Radiologist",
+        "department": "Radiology",
+        "schedule": "Mon-Sat 8AM-5PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 905 778 2345",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Melanie Grace Tahil",
+        "type": "Emergency Physician",
+        "department": "Emergency Med",
+        "schedule": "24/7 (Rotating)",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 921 889 3456",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Michael Bon Lazaro",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 1PM-4PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 928 990 4567",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Sylvernon Corbita Israel",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 915 112 5678",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi4_DB",
+    "numericId": 5,
+    "name": "Medical Mission Group Hospital & Health Services Cooperative",
+    "address": "2",
+    "latitude": 9.65215192788924,
+    "longitude": 123.8763273605,
+    "services": [
+      "Surgery",
+      "Internal Medicine",
+      "Pediatrics",
+      "Orthopedics",
+      "OB-GYN",
+      "Pathology",
+      "Anesthesiology"
+    ],
+    "referenceKey": "Hopi4_DB",
+    "level": "2",
+    "doctors": [
+      {
+        "name": "Dr. Ronald L. Ramiro",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "M-W-F 1PM-5PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 917 302 1122",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Jane R. Ramiro",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 918 411 2233",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Amelia P. Valdez",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 920 522 3344",
+        "hmos": [
+          "PhilCare",
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Herbert N. Relampagos",
+        "type": "Orthopedic Surgeon",
+        "department": "Orthopedics",
+        "schedule": "Tue-Sat 10AM-1PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 921 633 4455",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Stella Maris A. Escobia",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "M-W-F 9AM-4PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 922 744 5566",
+        "hmos": [
+          "Medicard",
+          "HPPI"
+        ]
+      },
+      {
+        "name": "Dr. Felix N. Lao Jr.",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Tue-Thu 11AM-1PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 923 855 6677",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Jane Elanor L. Permites",
+        "type": "Pathologist",
+        "department": "Pathology",
+        "schedule": "Mon-Sat 8AM-5PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 924 966 7788",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Valerie R. Ramiro",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,600",
+        "contact": "+63 925 077 8899",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Almieda D. Cepedoza",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Tue-Sat 10AM-5PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 933 042 9362",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Cromwell Aventurado",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "Thu-Sat 2PM-4PM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 927 288 0011",
+        "hmos": [
+          "Maxicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Alexis Katrina Victoria",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 928 399 1122",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Florence G. Cepedoza",
+        "type": "Surgical Oncologist",
+        "department": "Surgery",
+        "schedule": "Mon-Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱1,700",
+        "contact": "+63 929 411 2233",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Normandy Albuera",
+        "type": "Anesthesiologist",
+        "department": "Anesthesiology",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱1,000 - ₱2,500",
+        "contact": "+63 930 522 3344",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Emma P. Dominguez",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "M-T-Th-F 1PM-3PM",
+        "priceRange": "₱0 - ₱750",
+        "contact": "+63 961 816 9813",
+        "hmos": [
+          "Medicard",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Glenn Eduard Oppus",
+        "type": "Plastic Surgeon",
+        "department": "Surgery",
+        "schedule": "Mon-Thu 9AM-11AM",
+        "priceRange": "₱0 - ₱2,200",
+        "contact": "+63 932 633 4455",
+        "hmos": [
+          "PhilCare"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi5_DB",
+    "numericId": 6,
+    "name": "Tagbilaran Community Hospital Corp.",
+    "address": "1",
+    "latitude": 9.64272608152146,
+    "longitude": 123.858164855147,
+    "services": [
+      "Internal Medicine",
+      "OB-GYN",
+      "Pediatrics",
+      "Surgery",
+      "Ophthalmology",
+      "Rehab Medicine"
+    ],
+    "referenceKey": "Hopi5_DB",
+    "level": "1",
+    "doctors": [
+      {
+        "name": "Dr. John Jay Ocio",
+        "type": "Allergologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-12PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 917 882 1029",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Abigail C. Butron",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Tue-Thu 2PM-5PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 918 334 5566",
+        "hmos": [
+          "Medicard",
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Paul John Sepada",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-12PM",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 920 445 6677",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Earl Jayson Lomaad",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Fri 3PM-5PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 927 556 7788",
+        "hmos": [
+          "Etiqa",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Mary Angeli Salise",
+        "type": "Colorectal Surgeon",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 9AM-4PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 922 667 8899",
+        "hmos": [
+          "Intellicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. David Ammiel Tirol V",
+        "type": "Ophthalmologist",
+        "department": "Ophthalmology",
+        "schedule": "Tue-Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 917 722 2020",
+        "hmos": [
+          "PhilCare",
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Joyce C. Castillo",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Fri 10AM-3PM",
+        "priceRange": "₱1,200 - ₱2,500",
+        "contact": "+63 915 889 0011",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Christon Genard Sta. Cruz",
+        "type": "Internist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 8AM-11AM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 928 990 1122",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Venus Lyra Iyo",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Tue-Sat 9AM-3PM",
+        "priceRange": "₱0 - ₱750",
+        "contact": "+63 908 112 3344",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. John Rodel Acosta",
+        "type": "Physical Therapist",
+        "department": "Rehab Medicine",
+        "schedule": "Mon-Fri 8AM-5PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 919 223 4455",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Aubrey U. Bascon",
+        "type": "Geriatrician",
+        "department": "Internal Medicine",
+        "schedule": "Wed/Sat 10AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 930 334 5566",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Erick James Gastardo",
+        "type": "Trauma Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱1,800 - ₱3,500",
+        "contact": "+63 931 445 6677",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Dubhe Y. Marges",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-12PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 932 556 7788",
+        "hmos": [
+          "Medicard",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Maria Ellaine Grace Uy",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8:30AM-4PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 915 667 8899",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Christian Emmanuel II Lim",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sun 24/7",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 961 816 9000",
+        "hmos": [
+          "Maxicare"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi1_DB",
+    "numericId": 7,
+    "name": "CDG Bohol Doctors Hospital",
+    "address": "1",
+    "latitude": 9.62672086706918,
+    "longitude": 123.884774632594,
+    "services": [
+      "Internal Medicine",
+      "OB-GYN",
+      "Pediatrics",
+      "Surgery",
+      "Orthopedics",
+      "Ophthalmology",
+      "Emergency Med",
+      "Rehab Medicine"
+    ],
+    "referenceKey": "Hopi1_DB",
+    "level": "1",
+    "doctors": [
+      {
+        "name": "Dr. Roberto M. Sotto",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 123 4567",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Maria Elena P. Garcia",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "T-Th-S 9AM-12PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 918 234 5678",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Juan Paolo L. Ramos",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 920 345 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Ferdinand T. Lim",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 915 456 7890",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Angela V. Sy",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Wed/Sat 1PM-5PM",
+        "priceRange": "₱800 - ₱1,200",
+        "contact": "+63 927 567 8901",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Ricardo G. Torres",
+        "type": "Orthopedic Surgeon",
+        "department": "Orthopedics",
+        "schedule": "Tue-Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 678 9012",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Sofia C. Mendoza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 908 789 0123",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Gabriel E. Cruz",
+        "type": "Ophthalmologist",
+        "department": "Ophthalmology",
+        "schedule": "Mon-Fri 9AM-3PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 916 890 1234",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Teresa B. Aquino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-1PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 922 901 2345",
+        "hmos": [
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Manuel J. Hernandez",
+        "type": "Urologist",
+        "department": "Surgery",
+        "schedule": "Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 012 3456",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Cristina L. Villa",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 2PM-5PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 918 123 9876",
+        "hmos": [
+          "PhilCare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Paolo R. Santiago",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 10AM-2PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 905 234 8765",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Beatrice M. Gomez",
+        "type": "Psychiatrist",
+        "department": "Emergency Med",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱2,000 - ₱3,500",
+        "contact": "+63 921 345 7654",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Luisito K. Puno",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 928 456 6543",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Victoria S. Dimaguila",
+        "type": "Physiatrist",
+        "department": "Rehab Medicine",
+        "schedule": "Mon-Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 915 567 5432",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi2_DB",
+    "numericId": 8,
+    "name": "Tagbilaran City Primary Care Facility",
+    "address": "PCF",
+    "latitude": 9.65405528583824,
+    "longitude": 123.86550133687,
+    "services": [
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "OB-GYN"
+    ],
+    "referenceKey": "Hopi2_DB",
+    "level": "PCF",
+    "doctors": [
+      {
+        "name": "Dr. Victorio A. Dela Cruz",
+        "type": "Infectious Disease",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-3PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 111 2222",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Ma. Theresa J. Santos",
+        "type": "Hematologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 918 222 3333",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Rodolfo P. Quizon",
+        "type": "Thoracic Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,500",
+        "contact": "+63 919 333 4444",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Bianca Felice M. Yulo",
+        "type": "Plastic Surgeon",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 2PM-5PM",
+        "priceRange": "₱2,000 - ₱4,000",
+        "contact": "+63 920 444 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Enrico L. Tanchanco",
+        "type": "Allergologist",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 921 555 6666",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Patricia Anne S. Dy",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 922 666 7777",
+        "hmos": [
+          "ValuCare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Jose Mari R. Tan",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon/Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 923 777 8888",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Sofia Isabelle V. Gomez",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 8AM-11AM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 924 888 9999",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Leandro D. Villafuerte",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "M-W-F 9AM-12PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 925 999 0000",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Carmela T. Roxas",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-3PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 926 000 1111",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Rafael S. Mercado",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,800",
+        "contact": "+63 927 111 3333",
+        "hmos": [
+          "PhilCare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Katrina Bianca O. Lim",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 928 222 4444",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Mark Anthony V. Reyes",
+        "type": "Psychiatrist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 1PM-5PM",
+        "priceRange": "₱1,800 - ₱3,000",
+        "contact": "+63 929 333 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Sheila Marie P. Lopez",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 10AM-2PM",
+        "priceRange": "₱0 - ₱1,600",
+        "contact": "+63 930 444 6666",
+        "hmos": [
+          "Intellicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Benjamin F. Agbayani",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 8AM-12PM",
+        "priceRange": "₱0 - ₱1,250",
+        "contact": "+63 931 555 7777",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi3_DB",
+    "numericId": 9,
+    "name": "Poblacion 1 Health Center",
+    "address": "PCF",
+    "latitude": 9.63719795627203,
+    "longitude": 123.861013060066,
+    "services": [
+      "Internal Medicine",
+      "Pediatrics",
+      "Surgery",
+      "OB-GYN",
+      "Radiology",
+      "Emergency Med"
+    ],
+    "referenceKey": "Hopi3_DB",
+    "level": "PCF",
+    "doctors": [
+      {
+        "name": "Dr. Ma. Kristina G. Abella",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 9AM-1PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 445 1234",
+        "hmos": [
+          "Maxicare",
+          "Medicard",
+          "HPPI"
+        ]
+      },
+      {
+        "name": "Dr. Christian Keane Aguilar",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 10AM-3PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 918 556 2345",
+        "hmos": [
+          "Intellicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Lizlin Noemi Bajada",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 920 667 3456",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Lordfrey Dickson Atay",
+        "type": "Oncologist",
+        "department": "Surgery",
+        "schedule": "Wed 1PM-5PM",
+        "priceRange": "₱1,500 - ₱2,500",
+        "contact": "+63 915 778 4567",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Julia Berba-Maape",
+        "type": "Pediatric Cardiologist",
+        "department": "Pediatrics",
+        "schedule": "Tue/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 927 889 5678",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Backy Bacareza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 990 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Maria Corazon Lim",
+        "type": "Rheumatologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 908 112 7890",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Isagani De Los Santos",
+        "type": "Neurosurgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,000",
+        "contact": "+63 916 223 8901",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Imelda Goco-Jumangit",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 922 334 9012",
+        "hmos": [
+          "Medicard",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Marbert John Cardino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 917 556 0123",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Cecilia Angela Lopez",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 918 667 1234",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Herlando Bertulfo Jr.",
+        "type": "Radiologist",
+        "department": "Radiology",
+        "schedule": "Mon-Sat 8AM-5PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 905 778 2345",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Melanie Grace Tahil",
+        "type": "Emergency Physician",
+        "department": "Emergency Med",
+        "schedule": "24/7 (Rotating)",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 921 889 3456",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Michael Bon Lazaro",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 1PM-4PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 928 990 4567",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Sylvernon Corbita Israel",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 915 112 5678",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi4_DB",
+    "numericId": 10,
+    "name": "316 Diagnostic and Laboratory",
+    "address": "N/A",
+    "latitude": 9.64483088817093,
+    "longitude": 123.853232864385,
+    "services": [
+      "Surgery",
+      "Internal Medicine",
+      "Pediatrics",
+      "Orthopedics",
+      "OB-GYN",
+      "Pathology",
+      "Anesthesiology"
+    ],
+    "referenceKey": "Hopi4_DB",
+    "level": "N/A",
+    "doctors": [
+      {
+        "name": "Dr. Ronald L. Ramiro",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "M-W-F 1PM-5PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 917 302 1122",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Jane R. Ramiro",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 918 411 2233",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Amelia P. Valdez",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 920 522 3344",
+        "hmos": [
+          "PhilCare",
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Herbert N. Relampagos",
+        "type": "Orthopedic Surgeon",
+        "department": "Orthopedics",
+        "schedule": "Tue-Sat 10AM-1PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 921 633 4455",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Stella Maris A. Escobia",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "M-W-F 9AM-4PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 922 744 5566",
+        "hmos": [
+          "Medicard",
+          "HPPI"
+        ]
+      },
+      {
+        "name": "Dr. Felix N. Lao Jr.",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Tue-Thu 11AM-1PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 923 855 6677",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Jane Elanor L. Permites",
+        "type": "Pathologist",
+        "department": "Pathology",
+        "schedule": "Mon-Sat 8AM-5PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 924 966 7788",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Valerie R. Ramiro",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,600",
+        "contact": "+63 925 077 8899",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Almieda D. Cepedoza",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Tue-Sat 10AM-5PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 933 042 9362",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Cromwell Aventurado",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "Thu-Sat 2PM-4PM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 927 288 0011",
+        "hmos": [
+          "Maxicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Alexis Katrina Victoria",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 928 399 1122",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Florence G. Cepedoza",
+        "type": "Surgical Oncologist",
+        "department": "Surgery",
+        "schedule": "Mon-Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱1,700",
+        "contact": "+63 929 411 2233",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Normandy Albuera",
+        "type": "Anesthesiologist",
+        "department": "Anesthesiology",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱1,000 - ₱2,500",
+        "contact": "+63 930 522 3344",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Emma P. Dominguez",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "M-T-Th-F 1PM-3PM",
+        "priceRange": "₱0 - ₱750",
+        "contact": "+63 961 816 9813",
+        "hmos": [
+          "Medicard",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Glenn Eduard Oppus",
+        "type": "Plastic Surgeon",
+        "department": "Surgery",
+        "schedule": "Mon-Thu 9AM-11AM",
+        "priceRange": "₱0 - ₱2,200",
+        "contact": "+63 932 633 4455",
+        "hmos": [
+          "PhilCare"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi5_DB",
+    "numericId": 11,
+    "name": "Medicus - BMOG Diagnostic Center",
+    "address": "N/A",
+    "latitude": 9.64132504478533,
+    "longitude": 123.858838384448,
+    "services": [
+      "Internal Medicine",
+      "OB-GYN",
+      "Pediatrics",
+      "Surgery",
+      "Ophthalmology",
+      "Rehab Medicine"
+    ],
+    "referenceKey": "Hopi5_DB",
+    "level": "N/A",
+    "doctors": [
+      {
+        "name": "Dr. John Jay Ocio",
+        "type": "Allergologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-12PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 917 882 1029",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Abigail C. Butron",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Tue-Thu 2PM-5PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 918 334 5566",
+        "hmos": [
+          "Medicard",
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Paul John Sepada",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-12PM",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 920 445 6677",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Earl Jayson Lomaad",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Fri 3PM-5PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 927 556 7788",
+        "hmos": [
+          "Etiqa",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Mary Angeli Salise",
+        "type": "Colorectal Surgeon",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 9AM-4PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 922 667 8899",
+        "hmos": [
+          "Intellicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. David Ammiel Tirol V",
+        "type": "Ophthalmologist",
+        "department": "Ophthalmology",
+        "schedule": "Tue-Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 917 722 2020",
+        "hmos": [
+          "PhilCare",
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Joyce C. Castillo",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Fri 10AM-3PM",
+        "priceRange": "₱1,200 - ₱2,500",
+        "contact": "+63 915 889 0011",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Christon Genard Sta. Cruz",
+        "type": "Internist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 8AM-11AM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 928 990 1122",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Venus Lyra Iyo",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Tue-Sat 9AM-3PM",
+        "priceRange": "₱0 - ₱750",
+        "contact": "+63 908 112 3344",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. John Rodel Acosta",
+        "type": "Physical Therapist",
+        "department": "Rehab Medicine",
+        "schedule": "Mon-Fri 8AM-5PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 919 223 4455",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Aubrey U. Bascon",
+        "type": "Geriatrician",
+        "department": "Internal Medicine",
+        "schedule": "Wed/Sat 10AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 930 334 5566",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Erick James Gastardo",
+        "type": "Trauma Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱1,800 - ₱3,500",
+        "contact": "+63 931 445 6677",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Dubhe Y. Marges",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-12PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 932 556 7788",
+        "hmos": [
+          "Medicard",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Maria Ellaine Grace Uy",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8:30AM-4PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 915 667 8899",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Christian Emmanuel II Lim",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sun 24/7",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 961 816 9000",
+        "hmos": [
+          "Maxicare"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi1_DB",
+    "numericId": 12,
+    "name": "Best Diagnostic Corporation",
+    "address": "N/A",
+    "latitude": 9.64504513932447,
+    "longitude": 123.856470639613,
+    "services": [
+      "Internal Medicine",
+      "OB-GYN",
+      "Pediatrics",
+      "Surgery",
+      "Orthopedics",
+      "Ophthalmology",
+      "Emergency Med",
+      "Rehab Medicine"
+    ],
+    "referenceKey": "Hopi1_DB",
+    "level": "N/A",
+    "doctors": [
+      {
+        "name": "Dr. Roberto M. Sotto",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 123 4567",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Maria Elena P. Garcia",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "T-Th-S 9AM-12PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 918 234 5678",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Juan Paolo L. Ramos",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 920 345 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Ferdinand T. Lim",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 915 456 7890",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Angela V. Sy",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Wed/Sat 1PM-5PM",
+        "priceRange": "₱800 - ₱1,200",
+        "contact": "+63 927 567 8901",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Ricardo G. Torres",
+        "type": "Orthopedic Surgeon",
+        "department": "Orthopedics",
+        "schedule": "Tue-Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 678 9012",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Sofia C. Mendoza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 908 789 0123",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Gabriel E. Cruz",
+        "type": "Ophthalmologist",
+        "department": "Ophthalmology",
+        "schedule": "Mon-Fri 9AM-3PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 916 890 1234",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Teresa B. Aquino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-1PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 922 901 2345",
+        "hmos": [
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Manuel J. Hernandez",
+        "type": "Urologist",
+        "department": "Surgery",
+        "schedule": "Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 012 3456",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Cristina L. Villa",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 2PM-5PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 918 123 9876",
+        "hmos": [
+          "PhilCare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Paolo R. Santiago",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 10AM-2PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 905 234 8765",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Beatrice M. Gomez",
+        "type": "Psychiatrist",
+        "department": "Emergency Med",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱2,000 - ₱3,500",
+        "contact": "+63 921 345 7654",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Luisito K. Puno",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 928 456 6543",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Victoria S. Dimaguila",
+        "type": "Physiatrist",
+        "department": "Rehab Medicine",
+        "schedule": "Mon-Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 915 567 5432",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi2_DB",
+    "numericId": 13,
+    "name": "Bohol Family Wellness Center",
+    "address": "N/A",
+    "latitude": 9.65526284515409,
+    "longitude": 123.869466076526,
+    "services": [
+      "Internal Medicine",
+      "Surgery",
+      "Pediatrics",
+      "OB-GYN"
+    ],
+    "referenceKey": "Hopi2_DB",
+    "level": "N/A",
+    "doctors": [
+      {
+        "name": "Dr. Victorio A. Dela Cruz",
+        "type": "Infectious Disease",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-3PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 917 111 2222",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Ma. Theresa J. Santos",
+        "type": "Hematologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,500",
+        "contact": "+63 918 222 3333",
+        "hmos": [
+          "Intellicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Rodolfo P. Quizon",
+        "type": "Thoracic Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,500",
+        "contact": "+63 919 333 4444",
+        "hmos": [
+          "Cocolife",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Bianca Felice M. Yulo",
+        "type": "Plastic Surgeon",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 2PM-5PM",
+        "priceRange": "₱2,000 - ₱4,000",
+        "contact": "+63 920 444 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Enrico L. Tanchanco",
+        "type": "Allergologist",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 921 555 6666",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Patricia Anne S. Dy",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 922 666 7777",
+        "hmos": [
+          "ValuCare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Jose Mari R. Tan",
+        "type": "Dermatologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon/Wed 1PM-4PM",
+        "priceRange": "₱0 - ₱950",
+        "contact": "+63 923 777 8888",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Sofia Isabelle V. Gomez",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 8AM-11AM",
+        "priceRange": "₱0 - ₱1,400",
+        "contact": "+63 924 888 9999",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Leandro D. Villafuerte",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "M-W-F 9AM-12PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 925 999 0000",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Carmela T. Roxas",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Sat 10AM-3PM",
+        "priceRange": "₱0 - ₱850",
+        "contact": "+63 926 000 1111",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Rafael S. Mercado",
+        "type": "General Surgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱1,800",
+        "contact": "+63 927 111 3333",
+        "hmos": [
+          "PhilCare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Katrina Bianca O. Lim",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 928 222 4444",
+        "hmos": [
+          "Maxicare"
+        ]
+      },
+      {
+        "name": "Dr. Mark Anthony V. Reyes",
+        "type": "Psychiatrist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 1PM-5PM",
+        "priceRange": "₱1,800 - ₱3,000",
+        "contact": "+63 929 333 5555",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Sheila Marie P. Lopez",
+        "type": "Neurologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 10AM-2PM",
+        "priceRange": "₱0 - ₱1,600",
+        "contact": "+63 930 444 6666",
+        "hmos": [
+          "Intellicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Benjamin F. Agbayani",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu-Sat 8AM-12PM",
+        "priceRange": "₱0 - ₱1,250",
+        "contact": "+63 931 555 7777",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Hopi3_DB",
+    "numericId": 14,
+    "name": "Lim Hong Khu Medical Arts and Wellness Center",
+    "address": "",
+    "latitude": 9.64478087049113,
+    "longitude": 123.853030147218,
+    "services": [
+      "Internal Medicine",
+      "Pediatrics",
+      "Surgery",
+      "OB-GYN",
+      "Radiology",
+      "Emergency Med"
+    ],
+    "referenceKey": "Hopi3_DB",
+    "level": "",
+    "doctors": [
+      {
+        "name": "Dr. Ma. Kristina G. Abella",
+        "type": "Cardiologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 9AM-1PM",
+        "priceRange": "₱0 - ₱1,300",
+        "contact": "+63 917 445 1234",
+        "hmos": [
+          "Maxicare",
+          "Medicard",
+          "HPPI"
+        ]
+      },
+      {
+        "name": "Dr. Christian Keane Aguilar",
+        "type": "Gastroenterologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 10AM-3PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 918 556 2345",
+        "hmos": [
+          "Intellicare",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Lizlin Noemi Bajada",
+        "type": "Pediatrician",
+        "department": "Pediatrics",
+        "schedule": "Mon-Fri 8AM-4PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 920 667 3456",
+        "hmos": [
+          "Maxicare",
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Lordfrey Dickson Atay",
+        "type": "Oncologist",
+        "department": "Surgery",
+        "schedule": "Wed 1PM-5PM",
+        "priceRange": "₱1,500 - ₱2,500",
+        "contact": "+63 915 778 4567",
+        "hmos": [
+          "None (Private)"
+        ]
+      },
+      {
+        "name": "Dr. Julia Berba-Maape",
+        "type": "Pediatric Cardiologist",
+        "department": "Pediatrics",
+        "schedule": "Tue/Sat 9AM-12PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 927 889 5678",
+        "hmos": [
+          "Medicard",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Backy Bacareza",
+        "type": "Nephrologist",
+        "department": "Internal Medicine",
+        "schedule": "Mon-Wed 8AM-11AM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 919 990 6789",
+        "hmos": [
+          "Maxicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Maria Corazon Lim",
+        "type": "Rheumatologist",
+        "department": "Internal Medicine",
+        "schedule": "Thu 1PM-4PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 908 112 7890",
+        "hmos": [
+          "Intellicare"
+        ]
+      },
+      {
+        "name": "Dr. Isagani De Los Santos",
+        "type": "Neurosurgeon",
+        "department": "Surgery",
+        "schedule": "By Appt. Only",
+        "priceRange": "₱0 - ₱2,000",
+        "contact": "+63 916 223 8901",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Imelda Goco-Jumangit",
+        "type": "Pulmonologist",
+        "department": "Internal Medicine",
+        "schedule": "M-W-F 10AM-2PM",
+        "priceRange": "₱0 - ₱1,000",
+        "contact": "+63 922 334 9012",
+        "hmos": [
+          "Medicard",
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Marbert John Cardino",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Thu 9AM-1PM",
+        "priceRange": "₱0 - ₱1,150",
+        "contact": "+63 917 556 0123",
+        "hmos": [
+          "Maxicare",
+          "Avega"
+        ]
+      },
+      {
+        "name": "Dr. Cecilia Angela Lopez",
+        "type": "OB-Gynecologist",
+        "department": "OB-GYN",
+        "schedule": "Mon-Fri 8AM-12PM",
+        "priceRange": "₱0 - ₱900",
+        "contact": "+63 918 667 1234",
+        "hmos": [
+          "Intellicare",
+          "Etiqa"
+        ]
+      },
+      {
+        "name": "Dr. Herlando Bertulfo Jr.",
+        "type": "Radiologist",
+        "department": "Radiology",
+        "schedule": "Mon-Sat 8AM-5PM",
+        "priceRange": "₱0 - ₱800",
+        "contact": "+63 905 778 2345",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      },
+      {
+        "name": "Dr. Melanie Grace Tahil",
+        "type": "Emergency Physician",
+        "department": "Emergency Med",
+        "schedule": "24/7 (Rotating)",
+        "priceRange": "₱0 - ₱700",
+        "contact": "+63 921 889 3456",
+        "hmos": [
+          "PhilCare"
+        ]
+      },
+      {
+        "name": "Dr. Michael Bon Lazaro",
+        "type": "ENT Specialist",
+        "department": "Surgery",
+        "schedule": "Wed/Sat 1PM-4PM",
+        "priceRange": "₱0 - ₱1,100",
+        "contact": "+63 928 990 4567",
+        "hmos": [
+          "Cocolife"
+        ]
+      },
+      {
+        "name": "Dr. Sylvernon Corbita Israel",
+        "type": "Endocrinologist",
+        "department": "Internal Medicine",
+        "schedule": "Tue-Fri 10AM-2PM",
+        "priceRange": "₱0 - ₱1,200",
+        "contact": "+63 915 112 5678",
+        "hmos": [
+          "Maxicare",
+          "Medicard"
+        ]
+      }
+    ]
+  }
+]

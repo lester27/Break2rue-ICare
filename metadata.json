@@ -1,0 +1,6 @@
+{
+  "name": "iCare+",
+  "description": "Tagbilaran Health Literacy Platform — An AI-powered centralized helpdesk and hospital discovery platform for the Philippines.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["AI Chatbot", "Google Maps Integration"]
+}

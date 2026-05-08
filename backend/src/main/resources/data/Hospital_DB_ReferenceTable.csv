@@ -1,0 +1,17 @@
+﻿Name of Healthcare Facility,Type,Level,Latitude,Longitude,Reference Key
+Gov. C. Gallares Memorial Medical Center,Public Hospital,3,9.72293494451501,123.888441641311,GCG_DB
+Ramiro Community Hospital,Private Hospital,2,9.64478295704290,123.853249182060,Hopi1_DB
+ACE Medical Center - Bohol,Private Hospital,2,9.63471211807298,123.869286282060,Hopi2_DB
+Holy Name University Medical Center,Private Hospital,2,9.65125055318026,123.867815382060,Hopi3_DB
+Medical Mission Group Hospital & Health Services Cooperative ,Private Hospital,2,9.65215192788924,123.876327360500,Hopi4_DB
+Tagbilaran Community Hospital Corp.,Private Hospital,1,9.64272608152146,123.858164855147,Hopi5_DB
+CDG Bohol Doctors Hospital,Private Hospital,1,9.62672086706918,123.884774632594,Hopi1_DB
+Tagbilaran City Primary Care Facility,Public Health Center,PCF,9.65405528583824,123.865501336870,Hopi2_DB
+Poblacion 1 Health Center,Public Health Center,PCF,9.63719795627203,123.861013060066,Hopi3_DB
+316 Diagnostic and Laboratory,Private Laboratory,N/A,9.64483088817093,123.853232864385,Hopi4_DB
+Medicus - BMOG Diagnostic Center,Private Diagnostic,N/A,9.64132504478533,123.858838384448,Hopi5_DB
+Best Diagnostic Corporation,Private Diagnostic,N/A,9.64504513932447,123.856470639613,Hopi1_DB
+Bohol Family Wellness Center,Private Diagnostic,N/A,9.65526284515409,123.869466076526,Hopi2_DB
+Lim Hong Khu Medical Arts and Wellness Center,,,9.64478087049113,123.853030147218,Hopi3_DB
+,,,9.64476039174004,123.853035085544,Hopi4_DB
+,,,,,
