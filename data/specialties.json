@@ -1,0 +1,50 @@
+{
+  "doctors": [
+    {
+      "id": "DT001",
+      "type": "GP",
+      "local_name": "Doctor",
+      "requires_board_certification": false,
+      "spec": []
+    },
+    {
+      "id": "DT003",
+      "type": "Internist",
+      "local_name": "Internal Medicine Specialist",
+      "requires_board_certification": true,
+      "spec": ["SP-INT-001", "SP-INT-002", "SP-INT-003", "SP-INT-004", "SP-INT-007", "SP-INT-008", "SP-INT-010"]
+    },
+    {
+      "id": "DT005",
+      "type": "Pediatrician",
+      "local_name": "Children's Doctor",
+      "requires_board_certification": true,
+      "spec": ["SP-PED-001", "SP-PED-002"]
+    },
+    {
+      "id": "DT015",
+      "type": "Emergency Medicine Physician",
+      "local_name": "ER Doctor",
+      "requires_board_certification": true,
+      "spec": ["SP-EMG-001"]
+    },
+    {
+      "id": "DT018",
+      "type": "Cardiologist",
+      "local_name": "Heart Specialist",
+      "requires_board_certification": true,
+      "spec": ["SP-CAR-001"]
+    }
+  ],
+  "specs": {
+    "SP-INT-001": "General Internal Medicine",
+    "SP-INT-002": "Cardiology",
+    "SP-INT-004": "Gastroenterology",
+    "SP-INT-007": "Infectious Diseases",
+    "SP-INT-010": "Pulmonology",
+    "SP-PED-001": "General Pediatrics",
+    "SP-EMG-001": "Emergency Medicine",
+    "SP-CAR-001": "Clinical Cardiology",
+    "SP-NEU-001": "General Neurology"
+  }
+}

@@ -6,11 +6,8 @@
  */
 
 import { Hospital, Doctor, getHospitals } from "./dbService.js";
-<<<<<<< HEAD
-=======
 import fs from "fs";
 import path from "path";
->>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
 
 // ─── Types ───────────────────────────────────────────────────────
 
@@ -68,40 +65,11 @@ const SPECIALTY_KEYWORDS: Record<string, string[]> = {
   "general practice": ["general practice", "general", "family", "primary", "primary care", "gp", "family medicine", "general medicine"],
 };
 
-<<<<<<< HEAD
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-=======
 // ─── JSON Data Loading ───────────────────────────────────────────
->>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
 
 let triageData: TriageData | null = null;
 let specialtiesData: SpecialtiesData | null = null;
 
-<<<<<<< HEAD
-function ensureDataLoaded(): void {
-  if (!triageData) {
-    try {
-      triageData = require("../public/triage.json");
-    } catch (e) {
-      try {
-        triageData = require("../data/triage.json");
-      } catch (e2) {
-        console.warn("[AIService] Could not find triage.json");
-      }
-    }
-  }
-  if (!specialtiesData) {
-    try {
-      specialtiesData = require("../public/specialties.json");
-    } catch (e) {
-      try {
-        specialtiesData = require("../data/specialties.json");
-      } catch (e2) {
-        console.warn("[AIService] Could not find specialties.json");
-      }
-    }
-=======
 function loadJsonFile<T>(filename: string): T | null {
   const candidates = [
     path.resolve(process.cwd(), "src", "data", filename),
@@ -126,7 +94,6 @@ function ensureDataLoaded(): void {
   }
   if (!specialtiesData) {
     specialtiesData = loadJsonFile<SpecialtiesData>("specialties.json");
->>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
   }
 }
 

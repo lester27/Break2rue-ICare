@@ -1,0 +1,141 @@
+{
+  "triage_levels": [
+    { "code": 1, "label": "Immediate", "color": "Red" },
+    { "code": 2, "label": "Emergent", "color": "Orange" },
+    { "code": 3, "label": "Urgent", "color": "Yellow" },
+    { "code": 4, "label": "Less Urgent", "color": "Green" },
+    { "code": 5, "label": "Non-Urgent", "color": "Blue" }
+  ],
+  "red_flags": [
+    { "id": "RF001", "text": "Chest pain + shortness of breath", "escalate": 1 },
+    { "id": "RF002", "text": "Severe headache + confusion", "escalate": 1 },
+    { "id": "RF003", "text": "High fever + rash", "escalate": 2 },
+    { "id": "RF004", "text": "Abdominal pain + vomiting blood", "escalate": 1 },
+    { "id": "RF005", "text": "Difficulty breathing + blue lips", "escalate": 1 },
+    { "id": "RF006", "text": "Unconsciousness", "escalate": 1 },
+    { "id": "RF007", "text": "Severe bleeding", "escalate": 1 },
+    { "id": "RF008", "text": "Chest pain radiating to arm", "escalate": 1 }
+  ],
+  "cases": [
+    {
+      "id": "TC001",
+      "complaint": "Chest pain",
+      "branches": [
+        {
+          "id": "A",
+          "condition": "Severe + radiating",
+          "severity": [7, 10],
+          "triage": 1,
+          "spec": "SP-CAR-001",
+          "action": "Call 911"
+        },
+        {
+          "id": "B",
+          "condition": "Mild + localized",
+          "severity": [1, 6],
+          "triage": 3,
+          "spec": "SP-INT-001",
+          "action": "See GP"
+        }
+      ]
+    },
+    {
+      "id": "TC002",
+      "complaint": "Fever",
+      "branches": [
+        {
+          "id": "A",
+          "condition": "High fever + rash",
+          "severity": [7, 10],
+          "triage": 2,
+          "spec": "SP-INT-007",
+          "action": "Urgent care"
+        },
+        {
+          "id": "B",
+          "condition": "Mild fever",
+          "severity": [1, 6],
+          "triage": 4,
+          "spec": "DT001",
+          "action": "Rest and monitor"
+        }
+      ]
+    },
+    {
+      "id": "TC003",
+      "complaint": "Headache",
+      "branches": [
+        {
+          "id": "A",
+          "condition": "Severe + confusion",
+          "severity": [7, 10],
+          "triage": 1,
+          "spec": "SP-NEU-001",
+          "action": "Emergency"
+        },
+        {
+          "id": "B",
+          "condition": "Mild headache",
+          "severity": [1, 6],
+          "triage": 5,
+          "spec": "DT001",
+          "action": "Over-the-counter meds"
+        }
+      ]
+    },
+    {
+      "id": "TC004",
+      "complaint": "Shortness of breath",
+      "branches": [
+        {
+          "id": "A",
+          "condition": "Severe + blue lips",
+          "severity": [7, 10],
+          "triage": 1,
+          "spec": "SP-PUL-001",
+          "action": "Call ambulance"
+        },
+        {
+          "id": "B",
+          "condition": "Mild dyspnea",
+          "severity": [1, 6],
+          "triage": 3,
+          "spec": "SP-INT-010",
+          "action": "See pulmonologist"
+        }
+      ]
+    },
+    {
+      "id": "TC005",
+      "complaint": "Abdominal pain",
+      "branches": [
+        {
+          "id": "A",
+          "condition": "Severe + vomiting blood",
+          "severity": [7, 10],
+          "triage": 1,
+          "spec": "SP-INT-004",
+          "action": "Emergency surgery"
+        },
+        {
+          "id": "B",
+          "condition": "Mild pain",
+          "severity": [1, 6],
+          "triage": 4,
+          "spec": "DT001",
+          "action": "Dietary advice"
+        }
+      ]
+    }
+  ],
+  "vitals": {
+    "hr": [60, 100],
+    "hr_critical": [40, 130],
+    "temp": [36.1, 37.2],
+    "temp_fever": [38.1, 39.0],
+    "bp": [90, 120],
+    "bp_high": [140, 180],
+    "rr": [12, 20],
+    "rr_high": [25, 30]
+  }
+}

@@ -4,44 +4,6 @@
  * Reads hospital_db.json and provides accessors for the backend.
  */
 
-<<<<<<< HEAD
-import { createRequire } from "module";
-import { Hospital } from "./excelService.js";
-
-const require = createRequire(import.meta.url);
-
-export { Hospital, Doctor } from "./excelService.js";
-
-let hospitalCache: Hospital[] | null = null;
-
-/**
- * Robustly loads the hospital database.
- * On Vercel, we prefer direct requires or specific paths.
- */
-export function initExcelService(): void {
-  try {
-    // Attempt to load from multiple potential locations
-    // 1. Relative to this file (most robust for Vercel/Bundlers)
-    try {
-      hospitalCache = require("../public/hospital_db.json");
-      console.log("[DBService] Loaded from ../public/hospital_db.json");
-    } catch (e) {
-      // 2. Fallback to root-relative (sometimes works on Vercel)
-      hospitalCache = require("../../public/hospital_db.json");
-      console.log("[DBService] Loaded from ../../public/hospital_db.json");
-    }
-
-    if (hospitalCache && !Array.isArray(hospitalCache)) {
-      // Handle cases where JSON might be wrapped in a default object
-      if ((hospitalCache as any).default) {
-        hospitalCache = (hospitalCache as any).default;
-      }
-    }
-
-    console.log(`[DBService] Successfully initialized with ${hospitalCache?.length} hospitals`);
-  } catch (err: any) {
-    console.error("[DBService] Critical Load failed:", err.message);
-=======
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
@@ -70,6 +32,8 @@ export interface Hospital {
   referenceKey: string;
   level: string;
   doctors: Doctor[];
+  operatingHours?: string; // Added for compatibility with routes.ts
+  contactNumber?: string; // Added for compatibility with aiService.ts
 }
 
 let hospitalCache: Hospital[] | null = null;
@@ -106,7 +70,6 @@ export function initExcelService(): void {
     console.log(`[DBService] Loaded ${hospitalCache?.length} hospitals from JSON`);
   } catch (err: any) {
     console.error("[DBService] Load failed:", err.message);
->>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
     hospitalCache = [];
   }
 }
