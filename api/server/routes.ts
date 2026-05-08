@@ -200,7 +200,8 @@ router.get("/hospitals/nearby", (req: Request, res: Response) => {
 });
 
 // GET /api/hospitals/:id/doctors
-router.get("/hospitals/:id/doctors", (req: Request, res: Response) => {
+router.get("/hospitals/:id/doctors", async (req: Request, res: Response) => {
+
   const id = parseInt(req.params.id);
   const specialty = req.query.specialty as string;
 
