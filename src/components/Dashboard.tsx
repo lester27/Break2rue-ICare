@@ -142,8 +142,10 @@ export default function Dashboard({
           hospitals={hospitals} 
           isLoading={isLoadingHospitals} 
           onShowDetail={(h) => setSelectedHospital(h)}
+          onCloseDetail={() => setSelectedHospital(null)}
           selectedHospital={selectedHospital}
         />
+
         
         {/* Overlays */}
         <div className="absolute top-6 left-6 pointer-events-none">

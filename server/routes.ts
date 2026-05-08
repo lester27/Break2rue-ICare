@@ -202,6 +202,8 @@ router.get("/hospitals/nearby", (req: Request, res: Response) => {
 // GET /api/hospitals/:id/doctors
 router.get("/hospitals/:id/doctors", (req: Request, res: Response) => {
   const id = parseInt(req.params.id);
+  const specialty = req.query.specialty as string;
+
   if (isNaN(id)) {
     res.status(400).json({ error: "Invalid hospital ID" });
     return;
@@ -213,8 +215,32 @@ router.get("/hospitals/:id/doctors", (req: Request, res: Response) => {
     return;
   }
 
-  res.json(hospital.doctors);
+  let doctors = [...hospital.doctors];
+
+  if (specialty) {
+    const { getKeywordsForSpecialty, matchesAnyKeyword } = await import("./aiService.js");
+    const keywords = getKeywordsForSpecialty(specialty);
+
+    // Sort doctors: those matching keywords come first
+    doctors.sort((a, b) => {
+      const aMatches = matchesAnyKeyword(a.department, keywords) || matchesAnyKeyword(a.type, keywords);
+      const bMatches = matchesAnyKeyword(b.department, keywords) || matchesAnyKeyword(b.type, keywords);
+      
+      if (aMatches && !bMatches) return -1;
+      if (!aMatches && bMatches) return 1;
+      return 0;
+    });
+
+    // Add recommended flag for the UI
+    return res.json(doctors.map(d => ({
+      ...d,
+      recommended: matchesAnyKeyword(d.department, keywords) || matchesAnyKeyword(d.type, keywords)
+    })));
+  }
+
+  res.json(doctors);
 });
+
 
 // POST /api/users/profile
 router.post("/users/profile", (req: Request, res: Response) => {

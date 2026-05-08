@@ -50,9 +50,14 @@ const SYMPTOM_SPECIALTY_RULES: [string, string][] = [
   ["stomach", "Gastroenterology"],
   ["abdominal", "Gastroenterology"],
   ["nausea", "Gastroenterology"],
+  ["back pain", "Orthopedics"],
+  ["backpain", "Orthopedics"],
+  ["joint", "Orthopedics"],
+  ["bone", "Orthopedics"],
   ["dizzy", "General Practice"],
   ["other", "General Practice"],
 ];
+
 
 // ─── Specialty Keywords ──────────────────────────────────────────
 
@@ -63,7 +68,9 @@ const SPECIALTY_KEYWORDS: Record<string, string[]> = {
   neurology: ["neurology", "neuro", "brain", "headache", "migraine", "nerve", "stroke"],
   gastroenterology: ["gastroenterology", "gastro", "digestive", "stomach", "abdominal", "nausea", "gut", "bowel"],
   "general practice": ["general practice", "general", "family", "primary", "primary care", "gp", "family medicine", "general medicine"],
+  orthopedics: ["orthopedics", "ortho", "bone", "back", "joint", "spine", "muscle"],
 };
+
 
 // ─── JSON Data Loading ───────────────────────────────────────────
 
@@ -99,12 +106,14 @@ function ensureDataLoaded(): void {
 
 // ─── Helpers ─────────────────────────────────────────────────────
 
-function getKeywordsForSpecialty(specialty: string): string[] {
+export function getKeywordsForSpecialty(specialty: string): string[] {
+
   if (!specialty) return [];
   return SPECIALTY_KEYWORDS[specialty.toLowerCase()] || [specialty.toLowerCase()];
 }
 
-function matchesAnyKeyword(target: string | undefined, keywords: string[]): boolean {
+export function matchesAnyKeyword(target: string | undefined, keywords: string[]): boolean {
+
   if (!target?.trim()) return false;
   const normalized = target.toLowerCase();
   return keywords.some(kw => kw && normalized.includes(kw));
