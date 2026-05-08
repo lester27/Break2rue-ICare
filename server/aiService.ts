@@ -6,6 +6,11 @@
  */
 
 import { Hospital, Doctor, getHospitals } from "./dbService.js";
+<<<<<<< HEAD
+=======
+import fs from "fs";
+import path from "path";
+>>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
 
 // ─── Types ───────────────────────────────────────────────────────
 
@@ -63,12 +68,17 @@ const SPECIALTY_KEYWORDS: Record<string, string[]> = {
   "general practice": ["general practice", "general", "family", "primary", "primary care", "gp", "family medicine", "general medicine"],
 };
 
+<<<<<<< HEAD
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
+=======
+// ─── JSON Data Loading ───────────────────────────────────────────
+>>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
 
 let triageData: TriageData | null = null;
 let specialtiesData: SpecialtiesData | null = null;
 
+<<<<<<< HEAD
 function ensureDataLoaded(): void {
   if (!triageData) {
     try {
@@ -91,6 +101,32 @@ function ensureDataLoaded(): void {
         console.warn("[AIService] Could not find specialties.json");
       }
     }
+=======
+function loadJsonFile<T>(filename: string): T | null {
+  const candidates = [
+    path.resolve(process.cwd(), "src", "data", filename),
+    path.resolve(process.cwd(), filename),
+    path.resolve(process.cwd(), "..", filename),
+  ];
+
+  for (const candidate of candidates) {
+    if (fs.existsSync(candidate)) {
+      const content = fs.readFileSync(candidate, "utf-8");
+      return JSON.parse(content) as T;
+    }
+  }
+
+  console.warn(`[AIService] Could not find ${filename}`);
+  return null;
+}
+
+function ensureDataLoaded(): void {
+  if (!triageData) {
+    triageData = loadJsonFile<TriageData>("triage.json");
+  }
+  if (!specialtiesData) {
+    specialtiesData = loadJsonFile<SpecialtiesData>("specialties.json");
+>>>>>>> d6bb4c9cb3128149a01394e179698dc52d2a34f6
   }
 }
 
