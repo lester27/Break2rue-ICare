@@ -59,8 +59,9 @@ export async function initExcelService(): Promise<void> {
     await mongoClient.db("admin").command({ ping: 1 });
     console.log("[DBService] Ping successful!");
 
-    const db = mongoClient.db(); // Default DB
+    const db = mongoClient.db("Hospitals"); 
     console.log(`[DBService] Using database: ${db.databaseName}`);
+
     
     const collection = db.collection<Hospital>("Hospital_DB");
     const data = await collection.find({}).toArray();
