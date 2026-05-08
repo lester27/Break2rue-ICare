@@ -1,12 +1,15 @@
 console.log("[HEALTH] Server script starting...");
+console.log("[HEALTH] MONGODB_URI exists:", !!process.env.MONGODB_URI);
+
 import "dotenv/config";
 import express from "express";
 import { createServer as createViteServer } from "vite";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
-import { initExcelService, getHospitals } from "./server/dbService.js";
-import apiRouter from "./server/routes.js";
+import { initExcelService, getHospitals } from "./server/dbService";
+import apiRouter from "./server/routes";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

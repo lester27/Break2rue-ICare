@@ -11,17 +11,18 @@ import {
   findHospitalById,
   Hospital,
   Doctor,
-} from "./dbService.js";
+} from "./dbService";
 import {
   findNearbyHospitals,
   findMatchingHospitals,
   HospitalMatch,
   UserProfile,
-} from "./matchingEngine.js";
+} from "./matchingEngine";
 import {
   offlineTriage,
   getTriageResponse,
-} from "./aiService.js";
+} from "./aiService";
+
 
 // ─── Types ───────────────────────────────────────────────────────
 
