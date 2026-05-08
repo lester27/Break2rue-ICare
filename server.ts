@@ -32,13 +32,14 @@ async function startServer() {
 
   // Initialize backend services (load Excel data)
   try {
+    console.log("[Server] Calling initExcelService...");
     await initExcelService();
     console.log("[Server] Backend services initialized successfully");
   } catch (error: any) {
-    console.error("[Server] Critical Initialization Error:", error.message);
-    // On Vercel, we don't want to crash the whole worker immediately,
-    // so we can see the logs. API calls will fail gracefully later.
+    console.error("[Server] FATAL INITIALIZATION ERROR:", error.message);
+    console.error("[Server] Stack:", error.stack);
   }
+
 
   // Mounting API routes
   app.use("/api", apiRouter);

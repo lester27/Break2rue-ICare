@@ -50,34 +50,34 @@ async function getMongoClient() {
  * Initializes the service by fetching data from MongoDB.
  */
 export async function initExcelService(): Promise<void> {
+  console.log("[DBService] Starting initialization...");
   try {
     const mongoClient = await getMongoClient();
-    // Using default database or 'test' if not specified
-    const db = mongoClient.db(); 
-    const collection = db.collection<Hospital>("Hospital_DB");
     
-    console.log(`[DBService] Attempting to fetch from DB: ${db.databaseName}, Collection: Hospital_DB`);
-    
-    const collections = await db.listCollections().toArray();
-    console.log(`[DBService] Available collections in ${db.databaseName}:`, collections.map(c => c.name));
+    // Ping the database to verify connection
+    console.log("[DBService] Pinging MongoDB...");
+    await mongoClient.db("admin").command({ ping: 1 });
+    console.log("[DBService] Ping successful!");
 
+    const db = mongoClient.db(); // Default DB
+    console.log(`[DBService] Using database: ${db.databaseName}`);
+    
+    const collection = db.collection<Hospital>("Hospital_DB");
     const data = await collection.find({}).toArray();
     hospitalCache = data;
     
-    if (hospitalCache.length === 0) {
-      console.warn(`[DBService] Warning: Found 0 hospitals in ${db.databaseName}.Hospital_DB`);
-      const dbs = await mongoClient.db().admin().listDatabases();
-      console.log("[DBService] Available databases:", dbs.databases.map(d => d.name));
-    } else {
-      console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals from MongoDB Atlas`);
-    }
-
+    console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals`);
 
   } catch (err: any) {
-    console.error("[DBService] MongoDB Fetch failed:", err.message);
+    console.error("[DBService] CRITICAL FAILURE:", err.message);
+    if (err.message.includes("selection timeout")) {
+      console.error("[DBService] Suggestion: Check your IP Whitelist in MongoDB Atlas (0.0.0.0/0)");
+    }
     hospitalCache = [];
+    throw err; // Re-throw to be caught by server.ts
   }
 }
+
 
 // Sync version for existing code compatibility
 export function getHospitals(): Hospital[] {
