@@ -1,16 +1,6 @@
-/**
- * DB Service — Lightweight JSON database handler.
- *
- * Reads hospital_db.json and provides accessors for the backend.
- */
+import { MongoClient } from "mongodb";
 
-import path from "path";
-import fs from "fs";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+// Hospital Interface
 export interface Doctor {
   name: string;
   type: string;
@@ -19,6 +9,7 @@ export interface Doctor {
   priceRange: string;
   hmos: string[];
   contact: string;
+  tags?: string[]; // Added tags for matching
 }
 
 export interface Hospital {
@@ -32,59 +23,61 @@ export interface Hospital {
   referenceKey: string;
   level: string;
   doctors: Doctor[];
-  operatingHours?: string; // Added for compatibility with routes.ts
-  contactNumber?: string; // Added for compatibility with aiService.ts
+  operatingHours?: string;
+  contactNumber?: string;
 }
 
 let hospitalCache: Hospital[] | null = null;
+let client: MongoClient | null = null;
 
-function resolveJsonPath(): string {
-  const candidates = [
-    path.resolve(process.cwd(), "public", "hospital_db.json"),
-    path.resolve(process.cwd(), "data", "hospital_db.json"),
-    path.resolve(process.cwd(), "hospital_db.json"),
-    path.join(__dirname, "..", "public", "hospital_db.json"),
-    path.join(__dirname, "..", "data", "hospital_db.json"),
-    path.join(__dirname, "data", "hospital_db.json"),
-    path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "public", "hospital_db.json"),
-    "/var/task/public/hospital_db.json",
-    "/var/task/data/hospital_db.json"
-  ];
-
-  for (const candidate of candidates) {
-    if (fs.existsSync(candidate)) {
-      console.log(`[DBService] Found JSON database at: ${candidate}`);
-      return candidate;
-    }
+async function getMongoClient() {
+  if (client) return client;
+  
+  const uri = process.env.MONGODB_URI;
+  if (!uri) {
+    throw new Error("MONGODB_URI is not defined in environment variables");
   }
-
-  throw new Error("hospital_db.json not found");
+  
+  client = new MongoClient(uri);
+  await client.connect();
+  return client;
 }
 
-export function initExcelService(): void {
-  // Keeping the function name same for compatibility with server.ts temporarily
+/**
+ * Initializes the service by fetching data from MongoDB.
+ */
+export async function initExcelService(): Promise<void> {
   try {
-    const filePath = resolveJsonPath();
-    const raw = fs.readFileSync(filePath, "utf-8");
-    hospitalCache = JSON.parse(raw);
-    console.log(`[DBService] Loaded ${hospitalCache?.length} hospitals from JSON`);
+    const mongoClient = await getMongoClient();
+    const db = mongoClient.db("icare_db");
+    const collection = db.collection<Hospital>("hospitals");
+    
+    const data = await collection.find({}).toArray();
+    hospitalCache = data;
+    
+    console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals from MongoDB Atlas`);
   } catch (err: any) {
-    console.error("[DBService] Load failed:", err.message);
+    console.error("[DBService] MongoDB Fetch failed:", err.message);
     hospitalCache = [];
   }
 }
 
+// Sync version for existing code compatibility
 export function getHospitals(): Hospital[] {
   if (!hospitalCache) {
-    initExcelService();
+    // If cache is empty, we return empty array but trigger an async load
+    // In a real serverless env, we should await initExcelService() in the handler
+    initExcelService().catch(console.error);
+    return [];
   }
-  return [...(hospitalCache || [])];
+  return [...hospitalCache];
 }
 
 export function findHospitalByNumericId(numericId: number): Hospital | undefined {
-  return getHospitals().find(h => h.numericId === numericId);
+  return hospitalCache?.find(h => h.numericId === numericId);
 }
 
 export function findHospitalById(id: string): Hospital | undefined {
-  return getHospitals().find(h => h.id === id || String(h.numericId) === id);
+  return hospitalCache?.find(h => h.id === id || String(h.numericId) === id);
 }
+
