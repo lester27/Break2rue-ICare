@@ -38,7 +38,7 @@ async function startServer() {
 
   // Initialize backend services (load Excel data)
   try {
-    initExcelService();
+    await initExcelService();
     console.log("[Server] Backend services initialized successfully");
   } catch (error: any) {
     console.error("[Server] Critical Initialization Error:", error.message);
