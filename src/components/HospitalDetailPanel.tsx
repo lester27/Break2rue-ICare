@@ -161,8 +161,25 @@ export default function HospitalDetailPanel({ hospital, onClose, suggestedSpecia
                                 )}
                               </div>
                               <p className="text-[11px] text-[#4a7a6e] font-medium">{doc.department || doc.type}</p>
-                              {doc.schedule && <p className="text-[10px] text-[#4a7a6e] mt-1 flex items-center gap-1 opacity-70"><Clock className="h-3 w-3" /> {doc.schedule}</p>}
+                              <div className="flex flex-wrap gap-x-4 gap-y-1 mt-2">
+                                {doc.schedule && (
+                                  <p className="text-[10px] text-[#4a7a6e] flex items-center gap-1 opacity-70">
+                                    <Clock className="h-3 w-3" /> {doc.schedule}
+                                  </p>
+                                )}
+                                {doc.priceRange && (
+                                  <p className="text-[10px] text-green-700 font-semibold flex items-center gap-1 bg-green-50 px-1.5 py-0.5 rounded">
+                                    <Activity className="h-3 w-3" /> Fee: {doc.priceRange}
+                                  </p>
+                                )}
+                                {doc.contact && (
+                                  <p className="text-[10px] text-blue-700 font-semibold flex items-center gap-1 bg-blue-50 px-1.5 py-0.5 rounded">
+                                    <Phone className="h-3 w-3" /> {doc.contact}
+                                  </p>
+                                )}
+                              </div>
                             </div>
+
                             <div className={cn(
                               "text-[10px] font-bold px-2.5 py-1 rounded-lg uppercase tracking-tight",
                               isMatch ? "bg-amber-100 text-amber-700" : "bg-[#f0f9f6] text-[#1f4f45]"
