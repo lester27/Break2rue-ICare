@@ -1,3 +1,4 @@
+console.log("[HEALTH] Server script starting...");
 import "dotenv/config";
 import express from "express";
 import { createServer as createViteServer } from "vite";
