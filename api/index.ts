@@ -6,8 +6,9 @@ import express from "express";
 import path from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
-import { initExcelService, getHospitals } from "../server/dbService.js";
-import apiRouter from "../server/routes.js";
+import { initExcelService, getHospitals } from "./server/dbService.js";
+import apiRouter from "./server/routes.js";
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -56,7 +57,9 @@ async function startServer() {
 let cachedApp: any = null;
 
 export default async (req: any, res: any) => {
+  console.log(`[Vercel] Incoming request: ${req.method} ${req.url}`);
   try {
+
     if (!cachedApp) {
       cachedApp = await startServer();
     }

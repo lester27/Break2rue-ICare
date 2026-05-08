@@ -39,9 +39,10 @@ async function getMongoClient() {
   }
   
   client = new MongoClient(uri, {
-    serverSelectionTimeoutMS: 5000, // Wait 5 seconds before failing
-    connectTimeoutMS: 10000,        // 10 seconds for initial connection
+    serverSelectionTimeoutMS: 15000, // Wait 15 seconds
+    connectTimeoutMS: 20000,        // 20 seconds
   });
+
   await client.connect();
   return client;
 }
@@ -54,10 +55,22 @@ export async function initExcelService(): Promise<void> {
   try {
     const mongoClient = await getMongoClient();
     
-    // Ping the database to verify connection
+    // Ping the database to verify connection with retries
     console.log("[DBService] Pinging MongoDB...");
-    await mongoClient.db("admin").command({ ping: 1 });
-    console.log("[DBService] Ping successful!");
+    let retries = 3;
+    while (retries > 0) {
+      try {
+        await mongoClient.db("admin").command({ ping: 1 });
+        console.log("[DBService] Ping successful!");
+        break;
+      } catch (pingErr) {
+        retries--;
+        console.warn(`[DBService] Ping failed, retries left: ${retries}`);
+        if (retries === 0) throw pingErr;
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    }
+
 
     const db = mongoClient.db("Hospitals"); 
     console.log(`[DBService] Using database: ${db.databaseName}`);
