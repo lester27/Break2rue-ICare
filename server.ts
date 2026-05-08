@@ -16,8 +16,6 @@ async function startServer() {
 
   // DEBUG ENDPOINT - Visit this at /api/debug to troubleshoot environment issues
   app.get("/api/debug", (req, res) => {
-    const dataPath = path.resolve(process.cwd(), "data", "hospital_db.json");
-
     const hospitals = getHospitals();
     res.json({
       status: hospitals.length > 0 ? "database_loaded" : "database_empty",
@@ -26,15 +24,11 @@ async function startServer() {
       env: process.env.NODE_ENV,
       isVercel: !!process.env.VERCEL,
       cwd: process.cwd(),
-      expectedDataPath: dataPath,
-      dataPathExists: fs.existsSync(dataPath),
-      dirContent: fs.existsSync(path.join(process.cwd(), "data")) 
-        ? fs.readdirSync(path.join(process.cwd(), "data")) 
-        : "data folder not found",
-
+      mongodb_uri_exists: !!process.env.MONGODB_URI,
       rootContent: fs.readdirSync(process.cwd())
     });
   });
+
 
   // Initialize backend services (load Excel data)
   try {

@@ -55,10 +55,20 @@ export async function initExcelService(): Promise<void> {
     
     console.log(`[DBService] Attempting to fetch from DB: ${db.databaseName}, Collection: Hospital_DB`);
     
+    const collections = await db.listCollections().toArray();
+    console.log(`[DBService] Available collections in ${db.databaseName}:`, collections.map(c => c.name));
+
     const data = await collection.find({}).toArray();
     hospitalCache = data;
     
-    console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals from MongoDB Atlas`);
+    if (hospitalCache.length === 0) {
+      console.warn(`[DBService] Warning: Found 0 hospitals in ${db.databaseName}.Hospital_DB`);
+      const dbs = await mongoClient.db().admin().listDatabases();
+      console.log("[DBService] Available databases:", dbs.databases.map(d => d.name));
+    } else {
+      console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals from MongoDB Atlas`);
+    }
+
 
   } catch (err: any) {
     console.error("[DBService] MongoDB Fetch failed:", err.message);
