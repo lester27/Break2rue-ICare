@@ -38,7 +38,10 @@ async function getMongoClient() {
     throw new Error("MONGODB_URI is not defined in environment variables");
   }
   
-  client = new MongoClient(uri);
+  client = new MongoClient(uri, {
+    serverSelectionTimeoutMS: 5000, // Wait 5 seconds before failing
+    connectTimeoutMS: 10000,        // 10 seconds for initial connection
+  });
   await client.connect();
   return client;
 }
