@@ -49,13 +49,17 @@ async function getMongoClient() {
 export async function initExcelService(): Promise<void> {
   try {
     const mongoClient = await getMongoClient();
-    const db = mongoClient.db("icare_db");
-    const collection = db.collection<Hospital>("hospitals");
+    // Using default database or 'test' if not specified
+    const db = mongoClient.db(); 
+    const collection = db.collection<Hospital>("Hospital_DB");
+    
+    console.log(`[DBService] Attempting to fetch from DB: ${db.databaseName}, Collection: Hospital_DB`);
     
     const data = await collection.find({}).toArray();
     hospitalCache = data;
     
     console.log(`[DBService] Successfully fetched ${hospitalCache.length} hospitals from MongoDB Atlas`);
+
   } catch (err: any) {
     console.error("[DBService] MongoDB Fetch failed:", err.message);
     hospitalCache = [];
